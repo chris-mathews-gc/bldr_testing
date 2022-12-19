@@ -1,0 +1,117 @@
+{
+  "bldrId": "99bcd63f-1e63-4244-844d-92eac39a3d37",
+  "name": "ContactCare_HardBounces_Log",
+  "customerKey": "cc_hardBouncesLog",
+  "description": "ContactCare_HardBounces_Log",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "SubscriberKey",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "BounceSubcategory",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "EmailAddress",
+      "defaultValue": "",
+      "maxLength": 254,
+      "isRequired": false,
+      "ordinal": 5,
+      "isPrimaryKey": false,
+      "fieldType": "EmailAddress"
+    },
+    {
+      "partnerKey": "",
+      "name": "EventDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 6,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 8,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "BounceCategory",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Status",
+      "defaultValue": "In Progress",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 7,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "SMTPBounceReason",
+      "defaultValue": "",
+      "maxLength": 4000,
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 9,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "BounceFieldType",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "SubscriberKey",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

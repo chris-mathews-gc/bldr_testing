@@ -1,0 +1,60 @@
+{
+  "bldrId": "14a18f4f-7bcb-46fa-aed6-f157560454e2",
+  "name": "ContactCare_EmailConsent",
+  "customerKey": "cc_emailConsent",
+  "description": "ContactCare_EmailConsent",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "Status",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Subscriber Key",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Email Address",
+      "defaultValue": "",
+      "maxLength": 254,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "EmailAddress"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  }
+}

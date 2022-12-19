@@ -1,0 +1,190 @@
+{
+  "bldrId": "bf1696ed-585d-4bb5-a9a1-e326b8ca2efd",
+  "name": "ContactCare_Engagement",
+  "customerKey": "cc_engagement",
+  "description": "ContactCare_Engagement",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "LastPledgePaymentDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 15,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailClickedDevice",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 11,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailOpenedOS",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 10,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "FirstSMSDeliveredDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 5,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastOneOffDonationDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 16,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailOpenedDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailClickedOS",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 13,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailOpenedEmailClient",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 9,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastOfflineActivityDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 7,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailOpenedDevice",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 8,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEngagementDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 14,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "ContactKey",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailClickedDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 17,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "FirstEmailSentDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 18,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailClickedEmailClient",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 12,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastSMSDeliveredDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 6,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastEmailSentDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  }
+}

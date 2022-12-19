@@ -1,0 +1,57 @@
+{
+  "bldrId": "6da65b70-347a-413d-9530-b46e9a6289f4",
+  "name": "ContactCare_EngagementDeleteFromJourney",
+  "customerKey": "cc_engagementDeleteFromJourney",
+  "description": "ContactCare_EngagementDeleteFromJourney",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "DateStamp",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "ContactKey",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "ContactKey",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

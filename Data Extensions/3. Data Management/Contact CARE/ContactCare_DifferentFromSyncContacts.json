@@ -1,0 +1,68 @@
+{
+  "bldrId": "c702dbfd-921e-4cb6-911e-e98c7f251b53",
+  "name": "ContactCare_DifferentFromSyncContacts",
+  "customerKey": "cc_differentFromSyncContacts",
+  "description": "ContactCare_DifferentFromSyncContacts",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "SubscriberKey",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "MobilePhone",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Phone"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Email",
+      "defaultValue": "",
+      "maxLength": 254,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "EmailAddress"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "SubscriberKey",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

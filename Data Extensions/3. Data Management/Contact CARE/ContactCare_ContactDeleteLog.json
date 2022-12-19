@@ -1,0 +1,69 @@
+{
+  "bldrId": "78ad336d-91df-40b0-aedd-cafc68cb0ada",
+  "name": "ContactCare_ContactDeleteLog",
+  "customerKey": "cc_contactDeleteLog",
+  "description": "ContactCare_ContactDeleteLog",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "Status",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 5,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "DeletedDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "StatusCode",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "ContactKey",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  }
+}

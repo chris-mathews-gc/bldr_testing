@@ -1,0 +1,118 @@
+{
+  "bldrId": "b680dc7d-78fc-4fdc-b96d-9d1f85481668",
+  "name": "ContactCare_ReEngagementEntry",
+  "customerKey": "cc_reEngagementEntry",
+  "description": "ContactCare_ReEngagementEntry",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "PostalCode",
+      "defaultValue": "",
+      "maxLength": 20,
+      "isRequired": false,
+      "ordinal": 7,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "City",
+      "defaultValue": "",
+      "maxLength": 40,
+      "isRequired": false,
+      "ordinal": 6,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "ContactId",
+      "defaultValue": "",
+      "maxLength": 18,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 9,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 8,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Street",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": false,
+      "ordinal": 5,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "FirstName",
+      "defaultValue": "",
+      "maxLength": 40,
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Email",
+      "defaultValue": "",
+      "maxLength": 254,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "EmailAddress"
+    },
+    {
+      "partnerKey": "",
+      "name": "LastName",
+      "defaultValue": "",
+      "maxLength": 80,
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Mobile",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Phone"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "ContactId",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

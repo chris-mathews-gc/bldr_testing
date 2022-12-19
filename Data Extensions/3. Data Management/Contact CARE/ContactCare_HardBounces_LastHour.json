@@ -1,0 +1,58 @@
+{
+  "bldrId": "d0e2670f-79fc-45a8-90ac-58df6b7bf136",
+  "name": "ContactCare_HardBounces_LastHour",
+  "customerKey": "cc_hardBouncesLastHour",
+  "description": "ContactCare_HardBounces_LastHour",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "Email",
+      "defaultValue": "",
+      "maxLength": 254,
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "EmailAddress"
+    },
+    {
+      "partnerKey": "",
+      "name": "SubscriberKey",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "SubscriberKey",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

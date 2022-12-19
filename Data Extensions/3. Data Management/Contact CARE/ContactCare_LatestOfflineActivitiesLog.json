@@ -1,0 +1,67 @@
+{
+  "bldrId": "31b9dc90-f3e1-4ff7-8292-5b26e7df0113",
+  "name": "ContactCare_LatestOfflineActivitiesLog",
+  "customerKey": "cc_latestOfflineActivitiesLog",
+  "description": "ContactCare_LatestOfflineActivitiesLog",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 3,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "EventDate",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Date"
+    },
+    {
+      "partnerKey": "",
+      "name": "SubscriberKey",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 4,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "ActivityName",
+      "defaultValue": "",
+      "maxLength": 50,
+      "isRequired": true,
+      "ordinal": 1,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  },
+  "isSendable": true,
+  "sendableDataExtensionField": {
+    "name": "SubscriberKey",
+    "fieldType": "Text"
+  },
+  "sendableSubscriberField": {
+    "name": "Subscriber Key"
+  }
+}

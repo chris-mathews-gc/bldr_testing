@@ -1,0 +1,40 @@
+{
+  "bldrId": "9947c481-eb59-4d22-9d3e-a5b1633ecf1c",
+  "name": "ContactCare_AllContactsCount",
+  "customerKey": "cc_allContactsCount",
+  "description": "ContactCare_AllContactsCount",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "ContactKey",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  }
+}

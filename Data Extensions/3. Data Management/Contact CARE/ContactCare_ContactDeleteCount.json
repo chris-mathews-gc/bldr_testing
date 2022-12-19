@@ -1,0 +1,40 @@
+{
+  "bldrId": "b465e882-d93e-42a0-ae77-9efd4734599f",
+  "name": "ContactCare_ContactDeleteCount",
+  "customerKey": "cc_contactDeleteCount",
+  "description": "ContactCare_ContactDeleteCount",
+  "fields": [
+    {
+      "partnerKey": "",
+      "name": "ContactKey",
+      "defaultValue": "",
+      "maxLength": 255,
+      "isRequired": true,
+      "ordinal": 0,
+      "isPrimaryKey": true,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield2",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 2,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    },
+    {
+      "partnerKey": "",
+      "name": "Addedfield",
+      "defaultValue": "",
+      "isRequired": false,
+      "ordinal": 1,
+      "isPrimaryKey": false,
+      "fieldType": "Text"
+    }
+  ],
+  "category": {
+    "categoryId": 315165,
+    "folderPath": "Data Extensions/3. Data Management/Contact CARE"
+  }
+}
